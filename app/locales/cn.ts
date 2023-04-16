@@ -149,8 +149,8 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
-    Error: "出错了，稍后重试吧",
+    BotHello: "细狗，行不行啊，让我杨航来帮你，这是[我家](https://user-images.githubusercontent.com/120257354/232321558-37d19526-db21-45b4-975c-89e6d73bc38a.jpg)",
+    Error: "我杨航不行了，让我歇会，等会再试",
     Prompt: {
       History: (content: string) =>
         "这是 ai 和用户的历史聊天总结作为前情提要：" + content,
