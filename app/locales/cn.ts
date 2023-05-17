@@ -171,7 +171,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "为你服务是我的荣幸[我家](https://user-images.githubusercontent.com/120257354/232321558-37d19526-db21-45b4-975c-89e6d73bc38a.jpg)",
+    BotHello: "为你服务是我的荣幸[资助一下吧](https://github-production-user-asset-6210df.s3.amazonaws.com/120257354/238987102-8dd1c2f3-9b0b-44c8-a662-fd619043c0e9.jpg)",
     Error: "网络正忙，稍会再试",
     Prompt: {
       History: (content: string) =>
