@@ -21,7 +21,7 @@ const cn = {
       Delete: "删除",
     },
     Rename: "重命名对话",
-    Typing: "细狗正在输入…",
+    Typing: "正在输入…",
     Input: (submitKey: string) => {
       var inputHints = `${submitKey} 发送`;
       if (submitKey === String(SubmitKey.Enter)) {
@@ -32,7 +32,7 @@ const cn = {
     Send: "发送",
     Config: {
       Reset: "重置默认",
-      SaveAs: "另存为面具",
+      SaveAs: "另存为模型",
     },
   },
   Export: {
@@ -171,8 +171,8 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "细狗，行不行啊，让我杨航来帮你，这是[我家](https://user-images.githubusercontent.com/120257354/232321558-37d19526-db21-45b4-975c-89e6d73bc38a.jpg)",
-    Error: "我杨航不行了，让我歇会，等会再试",
+    BotHello: "为你服务是我的荣幸[我家](https://user-images.githubusercontent.com/120257354/232321558-37d19526-db21-45b4-975c-89e6d73bc38a.jpg)",
+    Error: "网络正忙，稍会再试",
     Prompt: {
       History: (content: string) =>
         "这是 ai 和用户的历史聊天总结作为前情提要：" + content,
@@ -195,11 +195,11 @@ const cn = {
     Name: "插件",
   },
   Mask: {
-    Name: "面具",
+    Name: "模型",
     Page: {
-      Title: "预设角色面具",
+      Title: "预设角色模型",
       SubTitle: (count: number) => `${count} 个预设角色定义`,
-      Search: "搜索角色面具",
+      Search: "搜索角色模型",
       Create: "新建",
     },
     Item: {
@@ -212,7 +212,7 @@ const cn = {
     },
     EditModal: {
       Title: (readonly: boolean) =>
-        `编辑预设面具 ${readonly ? "（只读）" : ""}`,
+        `编辑预设模型 ${readonly ? "（只读）" : ""}`,
       Download: "下载预设",
       Clone: "克隆预设",
     },
@@ -226,8 +226,8 @@ const cn = {
     Skip: "直接开始",
     NotShow: "不再展示",
     ConfirmNoShow: "确认禁用？禁用后可以随时在设置中重新启用。",
-    Title: "挑选一个面具",
-    SubTitle: "现在开始，与面具背后的灵魂思维碰撞",
+    Title: "挑选一个模型",
+    SubTitle: "现在开始，与模型背后的灵魂思维碰撞",
     More: "查看全部",
   },
 
