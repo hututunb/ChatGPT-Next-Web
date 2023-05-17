@@ -106,8 +106,8 @@ const cn = {
       SubTitle: "在预览气泡中预览 Markdown 内容",
     },
     Mask: {
-      Title: "面具启动页",
-      SubTitle: "新建聊天时，展示面具启动页",
+      Title: "模型启动页",
+      SubTitle: "新建聊天时，展示模型启动页",
     },
     Prompt: {
       Disable: {
